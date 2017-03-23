@@ -1,7 +1,9 @@
 body {
   background: black;
   color: lightgrey;
-  font-size: 28px; }
+  font-size: 28px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold; }
 
 #pojemnik {
   width: 900px;
@@ -26,5 +28,27 @@ body {
   width: 450px;
   text-align: center;
   min-height: 280px; }
+
+.litera {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 3px solid grey;
+  float: left;
+  cursor: pointer;
+  border-radius: 15px; }
+  .litera:hover {
+    background: #222222;
+    color: white;
+    border: 3px solid white; }
+
+.reset {
+  color: green;
+  cursor: pointer;
+  font-size: 48px; }
+  .reset:hover {
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
